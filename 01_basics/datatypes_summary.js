@@ -21,3 +21,24 @@ const myFunction=function(){
     console.log("hello world");
 }
  console.log(typeof myFunction);
+
+
+
+ //memory-stack(primitive),heap(non primitive)
+
+//  let myYoutubename="aditi"
+
+//  let anothername=myYoutubename
+//  anothername="chai"
+//  console.log(anothername);
+//  console.log(myYoutubename);
+
+ let user={
+    email:"aditi@gmail.com",
+    upi:"user@ybl"
+
+ }
+ let usertwo=user
+  usertwo.email="aditi@google.com"
+ console.log(user.email);
+ console.log(usertwo.email);
